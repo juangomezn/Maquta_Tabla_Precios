@@ -1,0 +1,89 @@
+:root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+}
+
+.container{
+    display: flex;
+    height: 600px;
+    width: 900px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px gray;
+    color: rgb(44, 44, 255);
+}
+
+.plan-1{
+    padding: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.comprar{
+    border-radius: 250px;
+    width: 240px;
+    height: 45px;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 10px rgb(167, 167, 167);
+    background-color: rgb(0, 200, 200);
+    font-size: 18px;
+    font-weight: bold;
+    border-color: rgb(0, 200, 200);
+    color: white;
+}
+
+.detalles{
+    border-radius: 250px;
+    width: 240px;
+    height: 45px;
+    margin-bottom: 20px;
+    box-shadow: 0px 9px 13px rgba(128, 128, 128, 0.62);
+
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 3px rgb(0, 200, 200);
+    color: rgb(0, 200, 200);
+}
+
+.duracion{
+    font-weight: lighter;
+}
+
+.price{
+    color: rgb(1, 224, 224);
+}
+
+.features {
+    font-size: 20px;
+    font-weight: bolder;
+    list-style: none;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-left: 0;
+}
+
+.plan-2{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:  20px;
+    background: linear-gradient(120deg, rgb(43, 116, 226), rgb(14, 250, 218));
+    box-shadow: 0px 10px 10px gray;
+    height: 575px;
+    color: white;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    padding-top: 16px;
+}
